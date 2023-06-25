@@ -1,0 +1,14 @@
+prefix=/Users/kerricrawford/udemy/machine-learning/sample-project/env
+exec_prefix=/Users/kerricrawford/udemy/machine-learning/sample-project/env
+libdir=/Users/kerricrawford/udemy/machine-learning/sample-project/env/lib
+includedir=/Users/kerricrawford/udemy/machine-learning/sample-project/env/include
+
+Name: FreeType 2
+URL: https://freetype.org
+Description: A free, high-quality, and portable font engine.
+Version: 24.3.18
+Requires: 
+Requires.private: 
+Libs: -L/Users/kerricrawford/udemy/machine-learning/sample-project/env/lib -lfreetype
+Libs.private: -lz -L/Users/kerricrawford/udemy/machine-learning/sample-project/env/lib -lpng16 -lz
+Cflags: -I${includedir}/freetype2
